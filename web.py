@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 # 默认端口8000
-#启动命令 uvicorn main:app --reload
+#启动命令 uvicorn web:app --reload
 app = FastAPI()
 
 @app.get("/")
